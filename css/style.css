@@ -1,0 +1,396 @@
+body, div, span, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, 
+q, s, samp, small, strike, strong, sub, sup, 
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, 
+li, fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, embed, figure, figcaption, footer, header, menu, 
+nav, output, ruby, section, summary, time, mark, audio, video, 
+input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, menu, nav, section, time {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea:focus, input:focus {
+    outline: 0;
+}
+
+input {
+    border-width: 0;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+embed, img, object, video {
+    max-width: 100%;
+}
+
+sup {
+    font-size: 58.3%;
+    vertical-align: text-top;
+}
+
+sub {
+    font-size: 58.3%;
+    vertical-align: text-bottom;
+}
+
+.no-space-between-inline-blocks {
+    *letter-spacing: normal;
+    letter-spacing: -0.31em;
+    word-spacing: -0.43em;
+}
+
+.no-space-between-inline-blocks >* {
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.displace {
+    left: -5000px;
+    position: absolute;
+}
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}   
+*, *:after, *:before {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+html {
+    font-size: 16px;
+}
+body {
+    color: #22191a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.global_container_ {
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 1600px;
+    background: #ffffff;
+}
+.header {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+.banner {
+    height: 780px;
+    padding: 9px 0;
+    position: relative;
+    background: url(images/rectangle_1.jpg) no-repeat;
+}
+.header-2 {
+    left: 33px;
+    margin: 0 auto;
+    position: relative;
+    width: 850px;
+}
+.col-10 {
+    float: left;
+    margin: 42px 0 0;
+    position: relative;
+    width: 61px;
+}
+.home {
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25rem;
+}
+.rectangle-3 {
+    height: 1px;
+    margin: 11px auto 0;
+    width: 43px;
+    background: #ff1a2c;
+}
+.text {
+    float: left;
+    margin: 41px 0 0 92px;
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25rem;
+}
+.logo {
+    float: left;
+    margin: 0 0 0 88px;
+}
+.text-2 {
+    float: left;
+    margin: 41px 0 0 96px;
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25rem;
+}
+.text-3 {
+    float: left;
+    margin: 42px 0 0 81px;
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25rem;
+}
+.button-contact-us {
+    display: table;
+    margin: 347px auto 0;
+    min-height: 50px;
+    padding: 0 31px;
+    background: #ff1a2c;
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-content-wrapper {
+    display: table;
+    margin: 70px auto 0;
+    position: relative;
+}
+.about-us {
+    margin: 0 auto;
+    position: relative;
+    width: 1140px;
+}
+.col-2 {
+    float: left;
+    margin: 122px 0 0;
+    position: relative;
+    width: 458px;
+}
+.text-5 {
+    width: 458px;
+    line-height: 28px;
+}
+.button-read-more {
+    margin: 31px 0 0;
+    min-height: 50px;
+    padding: 0 35px;
+    position: relative;
+    width: 180px;
+    background: #ff1a2c;
+    color: #ffffff;
+    font-size: 1.125;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.col-3 {
+    float: left;
+    position: relative;
+    width: 651px;
+}
+.title {
+    position: relative;
+    width: 169px;
+}
+.text-7 {
+    color: #ff1a2c;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 1.875rem;
+    text-align: center;
+}
+.text-8 {
+    margin: 9px 0 0;
+    color: #333333;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.75rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.rectangle-5 {
+    float: left;
+    margin: 0 21px 0 0;
+    width: 315px;
+}
+.rectangle-5-copy {
+    float: left;
+    width: 315px;
+}
+.cooking-classes {
+    margin: 70px auto 0;
+    min-height: 826px;
+    padding: 72px 0 70px;
+    position: relative;
+    width: 1600px;
+    background: #22191a;
+}
+.title-copy {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+.cooking {
+    color: #ff1a2c;
+    font-family: 'Great Vibes', handwriting;
+    font-size: 1.875rem;
+    text-align: center;
+}
+.classes {
+    margin: 5px 0 0;
+    color: #ffffff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.75rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text-9 {
+    margin: 31px auto 0;
+    width: 945px;
+    color: #ffffff;
+    line-height: 28px;
+    text-align: center;
+}
+.imgs {
+    float: left;
+}
+.imgs >* {
+    float: left;
+}
+.imgs >*:last-child {
+    margin-right: 0 !important;
+}
+.rectangle-6-copy-4 {
+    width: 215px;
+}
+.rectangle-6 {
+    width: 390px;
+}
+.rectangle-6-copy {
+    width: 390px;
+}
+.rectangle-6-copy-3 {
+    width: 390px;
+}
+.rectangle-6-copy-2 {
+    width: 215px;
+}
+.slider {
+    margin: 31px auto 0;
+    position: relative;
+    width: 1168px;
+}
+.slider >* {
+    float: left;
+    margin: 0 522px 0 0;
+}
+.slider >*:last-child {
+    margin-right: 0 !important;
+}
+.left-arrow {
+    margin-top: 3px !important;
+}
+.points {
+    position: relative;
+    width: 76px;
+}
+.points >* {
+    float: left;
+    margin: 0 14px 0 0;
+}
+.points >*:last-child {
+    margin-right: 0 !important;
+}
+.rectangle-7-copy-holder {
+    padding: 3px 0;
+    position: relative;
+    width: 16px;
+    border: 1px solid #ff1a2c;
+}
+.rectangle-7 {
+    height: 8px;
+    margin: 0 auto;
+    width: 8px;
+    background: #ff1a2c;
+}
+.rectangle-7-copy-2 {
+    height: 16px;
+    width: 16px;
+    border: 1px solid #ff1a2c;
+}
+.rectangle-7-copy-3 {
+    height: 16px;
+    width: 16px;
+    border: 1px solid #ff1a2c;
+}
+.right-arrow {
+    margin-top: 3px !important;
+}
+.button-contact-us-2 {
+    display: table;
+    margin: 51px auto 0;
+    min-height: 50px;
+    padding: 0 31px;
+    background: #ff1a2c;
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
